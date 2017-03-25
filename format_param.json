@@ -1,0 +1,5 @@
+{
+  "MQTT_PORT": 9999,
+  "MQTT_IP": "xxx.xxx.xxx.xxx",
+  "BLUETOOTH_COM": "/dev/rfcomm1"
+}
