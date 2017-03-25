@@ -1,7 +1,7 @@
-#BTtoMQTT_python
+# BTtoMQTT_python
 マイコンから受信したBTのメッセージをMQTTに変換するスクリプト
 
-##BT関係コマンドメモ
+## BT関係コマンドメモ
 
 '''
 hcitool scan                                   #BT機器のスキャン
