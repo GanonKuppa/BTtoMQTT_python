@@ -1,7 +1,5 @@
 # coding: UTF-8
 
-#from  daemon import DaemonContext
-#from daemon.pidlockfile import PIDLockFile
 
 import serial
 import sys
@@ -32,9 +30,6 @@ def func():
 
     client.connect(host, port=port, keepalive=60)
     client.publish("TEST", "this is python script")
-
-    #fo = open('spam.txt', 'w')
-    #sys.stdout = fo
 
     try:
         ser = serial.Serial(serial_com,timeout = 5)
